@@ -1,0 +1,11 @@
+{
+  "name": "random-number",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git@github.com:jcarlosmejiaayala/random-number.git",
+  "author": "Juan Mejia <jmejia@foundationmedicine.com>",
+  "license": "MIT"
+}
