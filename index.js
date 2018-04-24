@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-function isValidInput(num) {
+function isInvalidInput(num) {
   return !isNumber(num) || !num || num < 0 || num > 1000000;
 }
 
@@ -18,7 +18,7 @@ function flip(num) {
 }
 
 function randomNumber(num) {
-  if (isValidInput(num)) {
+  if (isInvalidInput(num)) {
     throw `Make sure input follows next rules:
     - Must be a number.
     - Must be positive.
